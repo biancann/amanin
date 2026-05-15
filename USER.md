@@ -38,6 +38,8 @@ Responses must:
 - Marketplace chats
 - Payment screenshots
 
+For **URLs and domains**, deeper checks may use optional Hermes hub **`domain-intel`** (passive WHOIS/DNS/SSL) and optional **reputation APIs** (e.g. Safe Browsing, VirusTotal) configured only in the operator’s local environment — not via secrets typed in chat.
+
 ---
 
 # Language

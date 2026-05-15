@@ -27,3 +27,8 @@ The system should avoid:
 - storing OTPs
 - storing passwords
 - exposing personal information
+
+# Third-party reputation APIs
+
+- Never ask users to paste API keys or tokens into chat; configure keys in **`~/.hermes/.env`** (or host env) for local `curl` / MCP tools.
+- Summarize WHOIS/reputation output without doxxing registrants; registration privacy is common and not proof of abuse.

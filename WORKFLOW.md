@@ -27,7 +27,7 @@ Threat Analyzer:
 Domain Investigator:
 - validates URLs
 - checks domain age
-- checks reputation
+- checks reputation (passive WHOIS/DNS/SSL via optional `domain-intel`; optional vendor APIs per `domain-reputation-apis` when keys exist locally)
 
 ---
 

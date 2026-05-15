@@ -22,6 +22,8 @@ Used for:
 - phishing detection
 - suspicious domains
 
+**Hermes optional skill (passive, no API keys):** `official/research/domain-intel` — see profile skill `whois-passive-intel` (`skills/domain/whois-passive-intel/SKILL.md`).
+
 ---
 
 ## Safe Browsing Tool
@@ -32,6 +34,8 @@ Outputs:
 - malicious
 - suspicious
 - safe
+
+**API-backed reputation (optional keys in local env):** Google Safe Browsing Lookup v4, VirusTotal, urlscan.io, URLhaus — see profile skill `domain-reputation-apis` (`skills/security/domain-reputation-apis/SKILL.md`). Prefer summarizing verdicts for users instead of raw JSON.
 
 ---
 

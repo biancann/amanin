@@ -19,6 +19,17 @@ Zero dependencies. Zero API keys. Works out of the box.
 ## Data Sources
 
 - crt.sh — Certificate Transparency logs
-- WHOIS servers — Direct TCP to 100+ authoritative TLD servers  
+- WHOIS servers — Direct TCP to 100+ authoritative TLD servers
 - Google DNS-over-HTTPS — MX/NS/TXT/CNAME resolution
 - System DNS — A/AAAA records
+
+## Hub install
+
+```bash
+hermes skills install official/research/domain-intel
+```
+
+## Profile skills (Amanin)
+
+- **`whois-passive-intel`** — when to use hub `domain-intel`, CLI fallbacks, and safe WHOIS summaries (`skills/domain/whois-passive-intel/SKILL.md`).
+- **`domain-reputation-apis`** — Safe Browsing, VirusTotal, urlscan, URLhaus patterns; keys in local env only (`skills/security/domain-reputation-apis/SKILL.md`).

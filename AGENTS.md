@@ -63,9 +63,9 @@ Responsibilities:
 - SSL validation
 
 Tools:
-- WHOIS API
-- Safe Browsing API
-- URL parser
+- WHOIS / passive infra — Hermes optional `official/research/domain-intel`; profile skill `whois-passive-intel` for install, fallbacks, and safe summarization
+- Reputation feeds — profile skill `domain-reputation-apis` (Safe Browsing, VirusTotal, urlscan, URLhaus) using **local** API keys; never collect secrets in chat
+- URL parser (typosquatting / homograph heuristics)
 
 ---
 
