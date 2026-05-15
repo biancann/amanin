@@ -16,3 +16,4 @@ sessions/
 cron/
 cache/
 skills/.hub
+skills/.usage*
