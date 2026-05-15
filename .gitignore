@@ -1,3 +1,10 @@
 logs
 gateway.lock
 gateway_state.json
+
+bin
+skills/.curator_state
+.update_check
+auth.json
+auth.lock
+state.db
