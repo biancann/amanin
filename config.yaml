@@ -7,7 +7,14 @@ providers: {}
 fallback_providers: []
 credential_pool_strategies: {}
 toolsets:
-- hermes-cli
+  - hermes-cli
+# Toolset untuk sesi Telegram gateway saja (CLI memakai konfigurasi platform "cli" terpisah).
+# Hanya web + vision + clarify: cek tautan/teks publik dan screenshot, tanpa shell/file/delegasi.
+platform_toolsets:
+  telegram:
+    - web
+    - vision
+    - clarify
 agent:
   max_turns: 90
   gateway_timeout: 1800
@@ -217,9 +224,9 @@ display:
   runtime_footer:
     enabled: false
     fields:
-    - model
-    - context_pct
-    - cwd
+      - model
+      - context_pct
+      - cwd
   copy_shortcut: auto
   tool_progress: all
 dashboard:
@@ -336,6 +343,12 @@ telegram:
   reactions: false
   channel_prompts: {}
   allowed_chats: ''
+  # Setelah ada allow_admin_from, slash-command gating aktif: non-admin hanya
+  # /help, /whoami, plus perintah di user_allowed_commands (chat biasa tetap jalan).
+  allow_admin_from:
+    - '635343371'
+  user_allowed_commands:
+    - new
 mattermost:
   require_mention: true
   free_response_channels: ''
@@ -371,7 +384,7 @@ security:
   allow_lazy_installs: true
 cron:
   wrap_response: true
-  max_parallel_jobs: null
+  max_parallel_jobs:
 kanban:
   dispatch_in_gateway: true
   dispatch_interval_seconds: 60

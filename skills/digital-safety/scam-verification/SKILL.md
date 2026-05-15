@@ -20,9 +20,10 @@ triggers:
 - Check language quality: excessive abbreviations, inconsistent branding, poor grammar
 
 ### 2. Domain & URL Investigation
-Use terminal tools to probe suspicious links **before** visiting them in browser:
+Prefer **web_search** / **web_extract** (and skill/domain tools when enabled) for URLs. Use **terminal** only when the deployment allows it (e.g. local CLI); on restricted gateways (e.g. Telegram-only toolsets) rely on web + vision and explain limits.
 
 ```bash
+# When terminal is available — probe suspicious links before visiting in browser
 # Check DNS resolution
 dig +short <domain>
 host <domain>
