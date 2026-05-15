@@ -7,4 +7,11 @@ skills/.curator_state
 .update_check
 auth.json
 auth.lock
-state.db
+
+state.*
+gateway.*
+channel_directory.json
+.skills_prompt_snapshot.json
+sessions/
+cron/
+cache/
