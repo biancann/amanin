@@ -1,0 +1,241 @@
+2026-05-15 19:00:39,009 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-05-15 19:00:39,010 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-05-15 19:00:39,010 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-05-15 19:00:39,012 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-05-15 19:00:39,013 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-05-15 19:00:39,014 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-05-15 19:00:39,015 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-05-15 19:00:39,016 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-05-15 19:00:39,017 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-05-15 19:00:39,017 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-05-15 19:00:39,018 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-05-15 19:00:39,019 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-05-15 19:00:39,105 INFO hermes_cli.plugins: Plugin discovery complete: 22 found, 18 enabled
+2026-05-15 19:00:59,161 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-05-15 19:00:59,161 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-05-15 19:00:59,162 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-05-15 19:00:59,253 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-05-15 19:00:59,253 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-05-15 19:00:59,255 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-05-15 19:00:59,255 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-05-15 19:00:59,256 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-05-15 19:00:59,257 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-05-15 19:00:59,258 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-05-15 19:00:59,259 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-05-15 19:00:59,260 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-05-15 19:00:59,364 INFO hermes_cli.plugins: Plugin discovery complete: 22 found, 18 enabled
+2026-05-15 19:00:59,506 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 19:01:59.
+2026-05-15 19:00:59,509 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-05-15 19:00:59,509 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 19:01:59.
+2026-05-15 19:01:00,213 INFO tools.tirith_security: tirith not found — downloading latest release for x86_64-unknown-linux-gnu...
+2026-05-15 19:01:00,223 INFO gateway.run: Starting Hermes Gateway...
+2026-05-15 19:01:00,224 INFO gateway.run: Session storage: /home/ubuntu/.hermes/profiles/amanin/sessions
+2026-05-15 19:01:00,235 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-05-15 19:01:00,236 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-05-15 19:01:00,236 INFO gateway.run: Active profile: amanin
+2026-05-15 19:01:00,434 INFO gateway.run: Connecting to telegram...
+2026-05-15 19:01:00,486 ERROR gateway.platforms.base: [Telegram] Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:01:00,488 WARNING gateway.run: ✗ telegram failed to connect
+2026-05-15 19:01:00,489 INFO gateway.platforms.telegram: [Telegram] Disconnected from Telegram
+2026-05-15 19:01:00,491 ERROR gateway.run: Gateway hit a non-retryable startup conflict: telegram: Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:01:00,493 ERROR gateway.run: Gateway exiting cleanly: telegram: Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:01:06,386 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-05-15 19:01:06,387 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-05-15 19:01:06,387 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-05-15 19:01:06,469 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-05-15 19:01:06,469 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-05-15 19:01:06,470 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-05-15 19:01:06,471 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-05-15 19:01:06,472 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-05-15 19:01:06,473 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-05-15 19:01:06,474 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-05-15 19:01:06,474 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-05-15 19:01:06,475 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-05-15 19:01:06,569 INFO hermes_cli.plugins: Plugin discovery complete: 22 found, 18 enabled
+2026-05-15 19:01:07,408 INFO tools.tirith_security: tirith not found — downloading latest release for x86_64-unknown-linux-gnu...
+2026-05-15 19:01:07,418 INFO gateway.run: Starting Hermes Gateway...
+2026-05-15 19:01:07,418 INFO gateway.run: Session storage: /home/ubuntu/.hermes/profiles/amanin/sessions
+2026-05-15 19:01:07,427 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-05-15 19:01:07,427 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-05-15 19:01:07,428 INFO gateway.run: Active profile: amanin
+2026-05-15 19:01:07,625 INFO gateway.run: Connecting to telegram...
+2026-05-15 19:01:07,637 ERROR gateway.platforms.base: [Telegram] Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:01:07,639 WARNING gateway.run: ✗ telegram failed to connect
+2026-05-15 19:01:07,640 INFO gateway.platforms.telegram: [Telegram] Disconnected from Telegram
+2026-05-15 19:01:07,642 ERROR gateway.run: Gateway hit a non-retryable startup conflict: telegram: Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:01:07,644 ERROR gateway.run: Gateway exiting cleanly: telegram: Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:01:19,895 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-05-15 19:01:19,896 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-05-15 19:01:19,896 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-05-15 19:01:19,980 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-05-15 19:01:19,981 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-05-15 19:01:19,982 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-05-15 19:01:19,983 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-05-15 19:01:19,983 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-05-15 19:01:19,985 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-05-15 19:01:19,985 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-05-15 19:01:19,986 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-05-15 19:01:19,986 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-05-15 19:01:20,082 INFO hermes_cli.plugins: Plugin discovery complete: 22 found, 18 enabled
+2026-05-15 19:01:20,915 INFO tools.tirith_security: tirith not found — downloading latest release for x86_64-unknown-linux-gnu...
+2026-05-15 19:01:20,927 INFO gateway.run: Starting Hermes Gateway...
+2026-05-15 19:01:20,927 INFO gateway.run: Session storage: /home/ubuntu/.hermes/profiles/amanin/sessions
+2026-05-15 19:01:20,936 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-05-15 19:01:20,936 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-05-15 19:01:20,937 INFO gateway.run: Active profile: amanin
+2026-05-15 19:01:21,124 INFO gateway.run: Connecting to telegram...
+2026-05-15 19:01:21,136 ERROR gateway.platforms.base: [Telegram] Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:01:21,138 WARNING gateway.run: ✗ telegram failed to connect
+2026-05-15 19:01:21,139 INFO gateway.platforms.telegram: [Telegram] Disconnected from Telegram
+2026-05-15 19:01:21,140 ERROR gateway.run: Gateway hit a non-retryable startup conflict: telegram: Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:01:21,142 ERROR gateway.run: Gateway exiting cleanly: telegram: Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:01:47,642 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-05-15 19:01:47,642 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-05-15 19:01:47,643 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-05-15 19:01:47,726 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-05-15 19:01:47,727 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-05-15 19:01:47,728 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-05-15 19:01:47,729 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-05-15 19:01:47,729 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-05-15 19:01:47,730 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-05-15 19:01:47,731 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-05-15 19:01:47,732 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-05-15 19:01:47,732 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-05-15 19:01:47,830 INFO hermes_cli.plugins: Plugin discovery complete: 22 found, 18 enabled
+2026-05-15 19:01:48,670 INFO tools.tirith_security: tirith not found — downloading latest release for x86_64-unknown-linux-gnu...
+2026-05-15 19:01:48,681 INFO gateway.run: Starting Hermes Gateway...
+2026-05-15 19:01:48,681 INFO gateway.run: Session storage: /home/ubuntu/.hermes/profiles/amanin/sessions
+2026-05-15 19:01:48,691 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-05-15 19:01:48,692 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-05-15 19:01:48,692 INFO gateway.run: Active profile: amanin
+2026-05-15 19:01:48,911 INFO gateway.run: Connecting to telegram...
+2026-05-15 19:01:48,923 ERROR gateway.platforms.base: [Telegram] Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:01:48,925 WARNING gateway.run: ✗ telegram failed to connect
+2026-05-15 19:01:48,926 INFO gateway.platforms.telegram: [Telegram] Disconnected from Telegram
+2026-05-15 19:01:48,928 ERROR gateway.run: Gateway hit a non-retryable startup conflict: telegram: Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:01:48,930 ERROR gateway.run: Gateway exiting cleanly: telegram: Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:02:48,152 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-05-15 19:02:48,153 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-05-15 19:02:48,153 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-05-15 19:02:48,237 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-05-15 19:02:48,237 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-05-15 19:02:48,239 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-05-15 19:02:48,239 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-05-15 19:02:48,240 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-05-15 19:02:48,241 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-05-15 19:02:48,242 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-05-15 19:02:48,243 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-05-15 19:02:48,243 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-05-15 19:02:48,344 INFO hermes_cli.plugins: Plugin discovery complete: 22 found, 18 enabled
+2026-05-15 19:02:49,227 INFO tools.tirith_security: tirith not found — downloading latest release for x86_64-unknown-linux-gnu...
+2026-05-15 19:02:49,242 INFO gateway.run: Starting Hermes Gateway...
+2026-05-15 19:02:49,242 INFO gateway.run: Session storage: /home/ubuntu/.hermes/profiles/amanin/sessions
+2026-05-15 19:02:49,252 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-05-15 19:02:49,253 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-05-15 19:02:49,253 INFO gateway.run: Active profile: amanin
+2026-05-15 19:02:49,458 INFO gateway.run: Connecting to telegram...
+2026-05-15 19:02:49,470 ERROR gateway.platforms.base: [Telegram] Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:02:49,472 WARNING gateway.run: ✗ telegram failed to connect
+2026-05-15 19:02:49,473 INFO gateway.platforms.telegram: [Telegram] Disconnected from Telegram
+2026-05-15 19:02:49,474 ERROR gateway.run: Gateway hit a non-retryable startup conflict: telegram: Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:02:49,476 ERROR gateway.run: Gateway exiting cleanly: telegram: Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:05:02,670 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-05-15 19:05:02,670 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-05-15 19:05:02,671 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-05-15 19:05:02,752 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-05-15 19:05:02,752 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-05-15 19:05:02,753 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-05-15 19:05:02,754 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-05-15 19:05:02,755 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-05-15 19:05:02,756 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-05-15 19:05:02,757 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-05-15 19:05:02,757 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-05-15 19:05:02,758 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-05-15 19:05:02,853 INFO hermes_cli.plugins: Plugin discovery complete: 22 found, 18 enabled
+2026-05-15 19:05:03,698 INFO tools.tirith_security: tirith not found — downloading latest release for x86_64-unknown-linux-gnu...
+2026-05-15 19:05:03,708 INFO gateway.run: Starting Hermes Gateway...
+2026-05-15 19:05:03,709 INFO gateway.run: Session storage: /home/ubuntu/.hermes/profiles/amanin/sessions
+2026-05-15 19:05:03,718 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-05-15 19:05:03,718 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-05-15 19:05:03,719 INFO gateway.run: Active profile: amanin
+2026-05-15 19:05:03,941 INFO gateway.run: Connecting to telegram...
+2026-05-15 19:05:03,953 ERROR gateway.platforms.base: [Telegram] Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:05:03,955 WARNING gateway.run: ✗ telegram failed to connect
+2026-05-15 19:05:03,955 INFO gateway.platforms.telegram: [Telegram] Disconnected from Telegram
+2026-05-15 19:05:03,957 ERROR gateway.run: Gateway hit a non-retryable startup conflict: telegram: Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:05:03,960 ERROR gateway.run: Gateway exiting cleanly: telegram: Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:10:04,634 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-05-15 19:10:04,635 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-05-15 19:10:04,635 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-05-15 19:10:04,715 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-05-15 19:10:04,715 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-05-15 19:10:04,716 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-05-15 19:10:04,717 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-05-15 19:10:04,718 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-05-15 19:10:04,719 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-05-15 19:10:04,719 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-05-15 19:10:04,720 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-05-15 19:10:04,721 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-05-15 19:10:04,815 INFO hermes_cli.plugins: Plugin discovery complete: 22 found, 18 enabled
+2026-05-15 19:10:05,661 INFO tools.tirith_security: tirith not found — downloading latest release for x86_64-unknown-linux-gnu...
+2026-05-15 19:10:05,676 INFO gateway.run: Starting Hermes Gateway...
+2026-05-15 19:10:05,677 INFO gateway.run: Session storage: /home/ubuntu/.hermes/profiles/amanin/sessions
+2026-05-15 19:10:05,687 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-05-15 19:10:05,687 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-05-15 19:10:05,688 INFO gateway.run: Active profile: amanin
+2026-05-15 19:10:05,893 INFO gateway.run: Connecting to telegram...
+2026-05-15 19:10:05,910 ERROR gateway.platforms.base: [Telegram] Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:10:05,913 WARNING gateway.run: ✗ telegram failed to connect
+2026-05-15 19:10:05,913 INFO gateway.platforms.telegram: [Telegram] Disconnected from Telegram
+2026-05-15 19:10:05,915 ERROR gateway.run: Gateway hit a non-retryable startup conflict: telegram: Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:10:05,917 ERROR gateway.run: Gateway exiting cleanly: telegram: Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:15:06,635 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-05-15 19:15:06,636 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-05-15 19:15:06,637 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-05-15 19:15:06,717 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-05-15 19:15:06,718 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-05-15 19:15:06,719 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-05-15 19:15:06,720 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-05-15 19:15:06,720 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-05-15 19:15:06,722 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-05-15 19:15:06,722 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-05-15 19:15:06,723 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-05-15 19:15:06,724 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-05-15 19:15:06,818 INFO hermes_cli.plugins: Plugin discovery complete: 22 found, 18 enabled
+2026-05-15 19:15:07,630 INFO tools.tirith_security: tirith not found — downloading latest release for x86_64-unknown-linux-gnu...
+2026-05-15 19:15:07,643 INFO gateway.run: Starting Hermes Gateway...
+2026-05-15 19:15:07,644 INFO gateway.run: Session storage: /home/ubuntu/.hermes/profiles/amanin/sessions
+2026-05-15 19:15:07,654 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-05-15 19:15:07,654 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-05-15 19:15:07,655 INFO gateway.run: Active profile: amanin
+2026-05-15 19:15:07,856 INFO gateway.run: Connecting to telegram...
+2026-05-15 19:15:07,869 ERROR gateway.platforms.base: [Telegram] Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:15:07,871 WARNING gateway.run: ✗ telegram failed to connect
+2026-05-15 19:15:07,871 INFO gateway.platforms.telegram: [Telegram] Disconnected from Telegram
+2026-05-15 19:15:07,873 ERROR gateway.run: Gateway hit a non-retryable startup conflict: telegram: Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:15:07,875 ERROR gateway.run: Gateway exiting cleanly: telegram: Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:20:08,641 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-05-15 19:20:08,641 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-05-15 19:20:08,642 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-05-15 19:20:08,723 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-05-15 19:20:08,724 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-05-15 19:20:08,725 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-05-15 19:20:08,726 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-05-15 19:20:08,726 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-05-15 19:20:08,727 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-05-15 19:20:08,728 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-05-15 19:20:08,729 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-05-15 19:20:08,729 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-05-15 19:20:08,824 INFO hermes_cli.plugins: Plugin discovery complete: 22 found, 18 enabled
+2026-05-15 19:20:09,649 INFO tools.tirith_security: tirith not found — downloading latest release for x86_64-unknown-linux-gnu...
+2026-05-15 19:20:09,662 INFO gateway.run: Starting Hermes Gateway...
+2026-05-15 19:20:09,662 INFO gateway.run: Session storage: /home/ubuntu/.hermes/profiles/amanin/sessions
+2026-05-15 19:20:09,673 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-05-15 19:20:09,674 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-05-15 19:20:09,674 INFO gateway.run: Active profile: amanin
+2026-05-15 19:20:09,873 INFO gateway.run: Connecting to telegram...
+2026-05-15 19:20:09,885 ERROR gateway.platforms.base: [Telegram] Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:20:09,887 WARNING gateway.run: ✗ telegram failed to connect
+2026-05-15 19:20:09,888 INFO gateway.platforms.telegram: [Telegram] Disconnected from Telegram
+2026-05-15 19:20:09,890 ERROR gateway.run: Gateway hit a non-retryable startup conflict: telegram: Telegram bot token already in use (PID 6325). Stop the other gateway first.
+2026-05-15 19:20:09,892 ERROR gateway.run: Gateway exiting cleanly: telegram: Telegram bot token already in use (PID 6325). Stop the other gateway first.

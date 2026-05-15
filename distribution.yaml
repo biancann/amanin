@@ -1,0 +1,14 @@
+name: amanin
+version: 1.0.0
+description: "Autonomous scam investigation agent"
+hermes_requires: ">=0.12.0"
+author: "Bianca Nabilah Nisrina"
+license: "MIT"
+
+env_requires:
+  - name: OPENCODE_GO_API_KEY
+    description: "OpenCode Go API key (for model access)"
+    required: true
+  - name: TELEGRAM_BOT_TOKEN
+    description: "Telegram bot token for chat with the agent"
+    required: true
